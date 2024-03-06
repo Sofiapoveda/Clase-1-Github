@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mis notas</title>
+    <link href="notas.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="main-content">
+      <h1>Mis notas</h1>
+      <div class="table-container">
+        <form id="new-notes-form">
+          <input
+            type="text"
+            id="new-note"
+            placeholder="Agrega una nueva nota aquí..."
+            name="new-note"
+            class="new-note-input"
+          />
+          <div class="create-note-button">
+            <button>Crear nota</button>
+          </div>
+        </form>
+      </div>
+      <div class="table-item"></div>
+      <ul id="notes-list" class="no-bullets"></ul>
+    </div>
+  </body>
+  <script src="notas.js"></script>
+</html>
